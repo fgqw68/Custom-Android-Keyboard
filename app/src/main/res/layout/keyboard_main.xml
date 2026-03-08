@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0000FF">
+
+    <!-- Tab Navigation Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/tab_function"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            android:text="F-Keys"
+            android:tag="tab_function"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:stateListAnimator="@null"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/tab_alpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            android:text="ABC"
+            android:tag="tab_alpha"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:stateListAnimator="@null"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/tab_numeric"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="123"
+            android:tag="tab_numeric"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:stateListAnimator="@null"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- ViewFlipper for switching between layouts -->
+    <ViewFlipper
+        android:id="@+id/keyboard_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Tab 1: Function Keys (F1-F12) -->
+        <include layout="@layout/f_keys" />
+
+        <!-- Tab 2: Alpha Keys (QWERTY) -->
+        <include layout="@layout/alpha_keys" />
+
+        <!-- Tab 3: Numeric/Symbols -->
+        <include layout="@layout/numeric_keys" />
+
+    </ViewFlipper>
+
+</LinearLayout>

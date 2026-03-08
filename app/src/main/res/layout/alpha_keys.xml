@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/keyboard_height"
+    android:orientation="vertical"
+    android:background="#0000FF"
+    android:padding="4dp">
+
+        <!-- Row 1: QWERTYUIOP -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="Q"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="W"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="E"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="R"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="T"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="0dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="Y"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="U"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="I"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="O"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="P"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <!-- Row 2: ASDFGHJKL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="S"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="D"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="F"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="G"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="H"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="J"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="K"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="L"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <!-- Row 3: ZXCVBNM -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="Z"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="X"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="C"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="V"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="B"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="N"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="M"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <!-- Row 4: Space, Enter, Backspace -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backspace"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:text="⌫"
+                android:tag="keycode:67"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_marginEnd="2dp"
+                android:text=" "
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enter"
+                android:tag="keycode:66"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#000000"
+                android:stateListAnimator="@null"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+</LinearLayout>
